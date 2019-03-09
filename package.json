@@ -1,0 +1,27 @@
+{
+  "name": "the-responsible-developer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "build": "html-minifier --collapse-whitespace --remove-comments --remove-optional-tags --remove-redundant-attributes --remove-script-type-attributes --remove-tag-whitespace --use-short-doctype --minify-css true --minify-js true -o ./docs/index.html index.html ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stefanjudis/the-responsible-developer.git"
+  },
+  "keywords": [],
+  "author": "stefan judis <stefanjudis@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stefanjudis/the-responsible-developer/issues"
+  },
+  "homepage": "https://github.com/stefanjudis/the-responsible-developer#readme",
+  "devDependencies": {
+    "html-minifier": "^3.5.21"
+  }
+}
