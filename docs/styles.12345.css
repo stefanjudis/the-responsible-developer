@@ -6938,8 +6938,11 @@ code {
 }
 
 footer {
-  height: 5em;
-  background-image: url(/fwdays.svg);
+  height: 14em;
+  background-image: url(/jsconfeu.png);
   background-position: center;
   background-repeat: no-repeat;
+  width: 10em;
+  background-size: 100%;
+  margin: 0 auto;
 }
