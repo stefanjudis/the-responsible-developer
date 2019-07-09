@@ -6939,10 +6939,9 @@ code {
 
 footer {
   height: 14em;
-  background-image: url(/jsconfeu.png);
+  background-image: url(/modernweb.png);
   background-position: center;
   background-repeat: no-repeat;
-  width: 10em;
   background-size: 100%;
   margin: 0 auto;
 }
